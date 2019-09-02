@@ -45,7 +45,6 @@ def countdown():
     if timeleft > 0:
         # decrement the timer.
         timeleft -= 1
-
         # update the time left label
         timeLabel.config(text="Time left: "
                               + str(timeleft))
@@ -63,33 +62,25 @@ instructions = tkinter.Label(root, text="Type the colour"
                                         " of the words",
                              font=('Helvetica', 12))
 instructions.pack()
-
 # add a score label
 scoreLabel = tkinter.Label(root, text="Press enter to start",
                            font=('Helvetica', 12))
 scoreLabel.pack()
-
 # add a time left label
 timeLabel = tkinter.Label(root, text="Time left: " +
                                      str(timeleft), font=('Helvetica', 12))
-
 timeLabel.pack()
-
 # add a label for displaying the colours
 label = tkinter.Label(root, font=('Helvetica', 60))
 label.pack()
-
 # add a text entry box for
 # typing in colours
 e = tkinter.Entry(root)
-
 # run the 'startGame' function
 # when the enter key is pressed
 root.bind('<Return>', startGame)
 e.pack()
-
 # set focus on the entry box
 e.focus_set()
-
 # start the GUI
 root.mainloop()
