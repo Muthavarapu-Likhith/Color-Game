@@ -1,1 +1,3 @@
-# Muthavarapu-Likhith
+In this game, the player has to enter color of the word that appears on the screen and hence the score increases by one, the total time to play this game is 60 seconds. Colors used in this game are Red, Green, Black, Yellow, blue, White, Purple, Brown, pink, orange, cyan and magenta. Interface will display name of different colors in different colors. Player has to identify the color of the displayed word and enter the correct color name in the box in order to win the game. In order to start the game the player need to press the enter buton first.
+TKinter is widely used for developing GUI applications. Along with applications, we can also use Tkinter GUI to develop games. Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
+Prerequisite : Python GUI Tkinter
